@@ -1,0 +1,17 @@
+
+step 1: npm install
+step 2: node app.js
+step 3: Test image urls 
+	Test Data:
+	1: http://localhost:3000/image?url=https://www.google.com/images/srpr/logo11w.png
+	2: http://localhost:3000/image?url=https://www.ccn.com/wp-content/uploads/2019/12/stock-market-trader-thinking-ap-768x512.jpg
+	3: http://localhost:3000/image?url=https://images.firstpost.com/optimize/6YavA7mHITrd-Al4RDX71_G5OX8=/images.firstpost.com/wp-content/uploads/2019/05/Supreme-Court-new-social-image2.jpg
+
+note:	** some of the image urls are direct routing to the actual url **
+	example:
+	if I call the below url it is routing to the (https://www.aljazeera.com/mritems/imagecache/mbdxxlarge/mritems/Images/2020/1/22/fb5565f615db485aa59c94b1ae79f059_18.jpg)
+
+	1.http://localhost:3000/image?url=https://www.aljazeera.com/mritems/imagecache/mbdxxlarge/mritems/Images/2020/1/22/fb5565f615db485aa59c94b1ae79f059_18.jpg
+
+
+

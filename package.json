@@ -1,0 +1,22 @@
+{
+  "name": "imageproxy",
+  "version": "1.0.0",
+  "description": "a proxy server is an intermediary server between you and the websites you browse. it’s like a gateway between you and the Internet.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "keywords": [
+    "image",
+    "proxy",
+    "server"
+  ],
+  "author": "swamidas",
+  "license": "ISC",
+  "dependencies": {
+    "http": "0.0.0",
+    "https": "^1.0.0",
+    "path": "^0.12.7",
+    "url": "^0.11.0"
+  }
+}
